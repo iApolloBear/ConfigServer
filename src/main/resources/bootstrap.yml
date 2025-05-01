@@ -5,6 +5,7 @@ spring:
     active: native
   cloud:
     config:
+      import: "optional:configserver:"
       server:
         # Local configuration: This locations can either of classpath or locations in the filesystem.
         native:
