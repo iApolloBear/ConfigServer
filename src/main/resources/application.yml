@@ -14,7 +14,8 @@ spring:
           searchPaths: licensingservice
 server:
   port: 8071
-
+encrypt:
+  key: secretkey
 management:
   endpoints:
     web:
